@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class ReverseArrayTest {
+public class ReverseArrayTest {
+
+
+    ReverseArray ra = new ReverseArray();
 }
