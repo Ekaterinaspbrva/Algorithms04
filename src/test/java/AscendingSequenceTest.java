@@ -13,7 +13,7 @@ public class AscendingSequenceTest {
     }
 
     @Order(1)
-    @RepeatedTest(50)
+ //   @RepeatedTest(50)
     @Test
     public void testAscendingSequenceHappyPassPositiveNumber() {
 
