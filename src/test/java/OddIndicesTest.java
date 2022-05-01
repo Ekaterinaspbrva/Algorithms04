@@ -8,7 +8,7 @@ public class OddIndicesTest {
 //    Expected Result =  {590, 985, 68}
 
     @Test
-    public void testOddIndices(){
+    public void testOddIndicesHappyPass(){
 
         int[] expectedResult =  {590, 985, 68};
         int[] arr = {-45, 590, 234, 985, 12, 68};
