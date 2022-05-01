@@ -44,9 +44,9 @@ public class OddEvenTest{
         //  AAA  - The Arrange - Act - Assert
         //Arrange
         //Test Data
-        int a = 222222;
-        //String expectedResult = "Odd";
-        String expectedResult = "Even";
+        int a = Integer.MAX_VALUE;
+        String expectedResult = "Odd";
+        //String expectedResult = "Even";
 
         //Act
         OddEven as = new OddEven();

@@ -4,18 +4,20 @@ public class OddIndices {
 //    нечетных индексов
     public int[] oddIndices(int[] array) {
 
-        int countArraysLenghts = countArraysLenghts = array.length / 2;
+        if(array.length == 0 || array == null) {
 
-        int[] arrayRessult = new int[countArraysLenghts];
-        int indexCount = 0;
+            int countArraysLenghts = array.length / 2;
 
-        for (int i = 0; i < array.length; i++) {
-            if (i % 2 != 0) {
-                arrayRessult[indexCount++] = array[i];
+            int[] arrayRessult = new int[countArraysLenghts];
+            int indexCount = 0;
+
+            for (int i = 0; i < array.length; i++) {
+                if (i % 2 != 0) {
+                    arrayRessult[indexCount++] = array[i];
+                }
             }
+            return arrayRessult;
         }
-
-        return arrayRessult;
-
+        return array;
     }
 }
