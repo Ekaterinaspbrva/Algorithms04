@@ -3,7 +3,14 @@ HW 9 for Beginners
 
 
 
+
+
+
+
+
+
 Part 1 - Maven, JUnit 5.7.2
+git status
 
 Все задания нужно выполнять в проекте Algorithms04, фреймворк Maven + JUnit 5.7.2.
 Код задания должен быть написан в папке main -> java.
